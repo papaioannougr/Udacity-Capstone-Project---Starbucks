@@ -20,7 +20,6 @@ The analysis is consisted of 3 parts:
 ## Contents:
 
 1. Data folder: It contains the data for the analysis:
-
   i. portfolio.json: infromation for the offers
   
   ii. profile.json  : demographics of the customers
