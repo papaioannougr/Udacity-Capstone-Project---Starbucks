@@ -21,10 +21,10 @@ The analysis is consisted of 3 parts:
 
 1. Data folder: It contains the data for the analysis:
 
-  i. portfolio.json: infromation for the offers
+  - portfolio.json: infromation for the offers
   
-  ii. profile.json  : demographics of the customers
+  - profile.json  : demographics of the customers
   
-  iii. transcript.json: detailed information about actions taken for the offers 
+  - transcript.json: detailed information about actions taken for the offers 
   
 2. Starbucks_Capstone_notebook.ipynb: It's the jupyter notebook where all analysis took place. 
