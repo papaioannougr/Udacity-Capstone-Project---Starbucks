@@ -7,12 +7,21 @@ This project was as a requirement for the Udacity Data Scientist Nanodegree. The
 to provide an analysis to Starbucks about recomendation that can be done in order to optimize the offerr process.
 Data provided during the project were obtained by asimulation of Starbucks mobile application in which customers, receive and view offers made to themwhile they can pay their drinks in the stores.
 
+## Analysis
+The analysis is consisted of 3 parts:
+
+1. Data processing. In this step all data read and processed, applying cleansing actions. For portfolio and profile dataframes there were some changes in column names, Especially in profile dataframe, missing values were identified for column:age and a null value was applied. Information in trascript dataframe was aggregated in a list of meaningful columns which includes all the available information
+
+2. Exploratory Analysis. A thorough investigation took place in order to identify key features that affect the positive respond to an offer. Along with available demografic information analyzed and useful conclusion extracted about the profile of customers
+
+3. Modelling. The purpose in this step of the analysis, wasto build a model that can be used by Strabacks, in order to identify more effectively customers that will respond to the offer. I used Grid Search, in order to select the best classification model for the avbailable data. The best model was the random Forest classifier which accomplishes accuracy of 79% on the test data.
 
 
-CONTENTS:
-- 
-ETL Pipeline Preparation.ipynb : A python notebook where code ETL Pipeline Prparation was tested and optimized
-messages.csv & categories.csv: Data files which were used in ETL Pipeline Preparation.ipynb
-ML Pipeline Preparation.ipynb : A python notebook where ML Pipeline was tested and optimized
-README.md: Contents of repository & instructions to run the application
-Folders:
+##CONTENTS:
+
+1. Data folder: It contains the data for the analysis:
+  portfolio.json: infromation for the offers
+  profile.json  : demographics of the customers
+  transcript.json: detailed information about actions taken for the offers 
+  
+2. Starbucks_Capstone_notebook.ipynb: It's the jupyter notebook where all analysis took place. 
