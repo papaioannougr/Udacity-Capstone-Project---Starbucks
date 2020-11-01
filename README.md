@@ -1,4 +1,4 @@
-# Udacity-Capstone-Project---Starbucks
+# Udacity-Capstone-Project-Starbucks
 
 This repository contains all the necessary data and code files related with the  Capstone final project of the Udacity - DataScience nanodegree part.
 
