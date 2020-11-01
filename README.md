@@ -25,6 +25,6 @@ The analysis is consisted of 3 parts:
   
   - profile.json  : demographics of the customers
   
-  - transcript.json: detailed information about actions taken for the offers 
+  - transcript.rar: detailed information about actions taken for the offers. This dataset was compressed due to its large size.
   
 2. Starbucks_Capstone_notebook.ipynb: It's the jupyter notebook where all analysis took place. 
